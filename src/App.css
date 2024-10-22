@@ -1,0 +1,79 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.game-result {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.board-row {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-top: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 34px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.square.highlight {
+  background-color: yellow;
+}
+
+.game-board {
+  margin-right: 50px;
+}
+
+.moves {
+  margin-top: 2px;
+}
+
+.game-info ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.game-info ol li {
+  margin-top: 4px;
+  /* height: 10px; */
+}
+
+/* Style cho nút "Go to game start" */
+.game-info ol li button:first-child {
+  background-color: rgb(18, 180, 216);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
