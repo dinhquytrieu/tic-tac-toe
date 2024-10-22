@@ -45,6 +45,10 @@
   line-height: 34px;
   text-align: center;
   cursor: pointer;
+
+  margin-top: 4px;
+  margin-left: 4px;
+  border-radius: 4px;
 }
 
 .square.highlight {
@@ -65,7 +69,8 @@
 }
 
 .game-info ol li {
-  margin-top: 4px;
+  margin-top: 5px;
+  border-radius: 4px;
   /* height: 10px; */
 }
 
@@ -76,4 +81,5 @@
   border: none;
   padding: 5px 10px;
   cursor: pointer;
+  border-radius: 4px;
 }
